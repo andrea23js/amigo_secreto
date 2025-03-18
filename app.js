@@ -22,4 +22,12 @@ function actualizarLista() {
     document.getElementById("resultado").textContent = "";
 }
 
-
+function sortearAmigo() {
+  if (amigos.length > 0) {
+      const randomIndex = Math.floor(Math.random() * amigos.length);
+      const elegido = amigos[randomIndex];
+      document.getElementById("resultado").innerHTML = `<li>Amigo Secreto: ${elegido}</li>`;
+  } else {
+      alert("No hay amigos en la lista para sortear.");
+  }
+}
