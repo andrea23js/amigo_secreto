@@ -11,7 +11,7 @@
 
 ## 📂 Estructura del Proyecto
 ```
-📁 amigo-secreto/ 
+📁 amigo_secreto/ 
 ├── 📄 index.html # Página principal con la interfaz del sorteo 
 ├── 🎨 style.css # Estilos para la apariencia del sitio 
 ├── 📝 app.js # Lógica del sorteo y manipulación de la lista 
